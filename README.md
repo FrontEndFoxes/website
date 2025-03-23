@@ -2,6 +2,8 @@
 
 > Workshops and meetups for Foxy People 🦊 - a 501c3 nonprofit that closed in 2023.
 
+The original web site is archived here. 
+
 ## Build Setup
 
 ``` bash
