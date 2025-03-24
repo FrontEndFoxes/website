@@ -9,8 +9,6 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Thank you!" />
     </div>
-
-
   </header>
 </template>
 
@@ -20,21 +18,19 @@ header {
   flex-direction: row; /* Arrange items side by side */
   align-items: center; /* Vertically center items */
   justify-content: center; /* Horizontally center items */
-  height: 100vh; /* Full viewport height */
-  width: 100%; /* Full width */
   text-align: center;
+}
+
+body {
+  display: grid;
+  place-items: center; /* Center the header both vertically and horizontally */
+  height: 100vh; /* Full viewport height */
   margin: 0; /* Remove default margins */
 }
 
 .logo {
   max-width: 200px; /* Adjust logo size */
   margin-right: 2rem; /* Add spacing between logo and text */
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column; /* Stack text vertically */
-  align-items: flex-start; /* Align text to the left */
 }
 
 /* Mobile styles */
